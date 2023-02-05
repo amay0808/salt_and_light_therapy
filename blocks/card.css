@@ -2,7 +2,10 @@
     flex-basis: calc(50% - 50px);
     max-width: 600px;
     padding: 0;
-  
+    background-color: rgba(170, 86, 86, 0.5);
+
+   
+
     
 }
 .card__list{
@@ -11,6 +14,7 @@
   padding-left: 0;
   list-style: none;
   color: #fff;
+ 
   
 
 }
@@ -21,7 +25,7 @@
     line-height: 30px;
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 32px ;
     
 
 }

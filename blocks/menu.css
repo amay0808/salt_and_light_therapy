@@ -1,6 +1,6 @@
 .menu{
-    background-color: #0a2750;
-    background-image: url('../images/background_menu.svg');
+   /*background-color: #AA5656;*/
+    background-image: url('../images/online\ services.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,6 +30,8 @@ margin: auto;
     max-width: 780px;
     text-align: center;
     margin: auto;
+    background-color: rgba(170, 86, 86, 0.5);
+
 }
 .menu__cards{
 margin-top: 100px;
