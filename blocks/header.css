@@ -25,8 +25,9 @@
   font-size: 60px;
   line-height: 72px;
   z-index: 2;
-  margin: 0 0 0 50px;
+  margin: 0;
   color: #C58940;
+  padding-top: 150px;
 
 }
 .header__description{

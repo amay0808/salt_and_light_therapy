@@ -1,5 +1,5 @@
-.menu{
-   /*background-color: #AA5656;*/
+.services{
+   background-color: #AA5656;
     background-image: url('../images/online\ services.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@
     padding: 100px;
 
 }
-.menu__title{
+.services__title{
 font-family: 'Inter', Arial,sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -21,7 +21,7 @@ padding-bottom: 24px;
 margin: auto;
 }
 
-.menu__subtitle{
+.services__subtitle{
     font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
@@ -33,7 +33,7 @@ margin: auto;
     background-color: rgba(170, 86, 86, 0.5);
 
 }
-.menu__cards{
+.services__cards{
 margin-top: 100px;
 display: flex;
 gap: 100px;

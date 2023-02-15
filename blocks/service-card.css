@@ -1,4 +1,4 @@
-.card {
+.service-card {
     flex-basis: calc(50% - 50px);
     max-width: 600px;
     padding: 0;
@@ -8,7 +8,7 @@
 
     
 }
-.card__list{
+.service-card__list{
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -18,7 +18,7 @@
   
 
 }
-.card__title {
+.service-card__title {
     font-family: 'Inter', Arial,sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -29,7 +29,7 @@
     
 
 }
-.card__list-item {
+.service-card__list-item {
   font-family:"Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -40,10 +40,10 @@
   gap: 16px;
   margin-bottom: 16px;
 }
-.card__list-item:last-child{
+.service-card__list-item:last-child:last-child{
     margin-bottom: 0;
 }
-.card__list-divider {
+.service-card__list-divider {
   display: flex;
   flex-grow: 1;
   border:0;
