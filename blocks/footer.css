@@ -74,3 +74,36 @@ height: 16px;
 .footer__list-item:last-child {
  margin: 0;
 }
+.footer__call{
+    width: 35px;
+    height: 35px;
+    filter: brightness(0) invert(1);
+    margin-right: 950px;
+    margin-top: 9px;
+}
+.footer__phone, .footer__email{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter',Arial,sans-serif;
+}
+
+.footer__phone::after{
+    content: " (209) 200-8649";
+    display: block;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+   }
+   .footer__phone:hover::after {
+    color:  #c1c1c1;
+  }
+  .footer__email::after{
+    content: "info@saltandlighttherapy.net";
+    display: block;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+   }
+   .footer__email:hover::after {
+    color:  #c1c1c1;
+}

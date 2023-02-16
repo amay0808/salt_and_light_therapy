@@ -1,12 +1,22 @@
 .questions{
-    background-color: #ffffff;
+    background-image: url('../images/Q&A.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    padding-top: 100px; 
+    padding: 100px; 
 }
-
+.questions__cards{
+    max-width: 760px; 
+    margin: 68px auto 40px;
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 40px;
+     list-style: none;
+     padding: 0;
+   }
+   
 .questions__title{
     margin: 0 0 24px 80px;
     max-width: 500px;
@@ -16,16 +26,4 @@
     font-size: 44px;
     line-height: 52px;
 
-}
-.questions__subtitle{
-font-family: "Noto Serif", "Times New Roman", serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-max-width: 438px;
-margin-left: 80px;
-margin-bottom: 80px;
-margin-top: 0;
- 
 }
