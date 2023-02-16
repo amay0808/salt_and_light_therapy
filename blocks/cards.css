@@ -1,13 +1,4 @@
-.questions__cards{
-    max-width: 760px; 
-    margin: 68px auto 40px;
-    display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
-     gap: 40px;
-     list-style: none;
-     padding: 0;
-   }
+
    
    .card { 
      background-color: #fff;
