@@ -1,9 +1,9 @@
-.header{
+.header {
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
   background-color: #ffffff;
-  background-image: url('../images/couple.jpg');
+  background-image: url("../images/couple.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,21 +16,18 @@
   padding-right: 80px;
 }
 
-
-
 .header__title {
   max-width: 729px;
   font-style: normal;
-  font-weight:500;
+  font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   z-index: 2;
   margin: 0;
-  color: #C58940;
+  color: #c58940;
   padding-top: 150px;
-
 }
-.header__description{
+.header__description {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -38,13 +35,11 @@
   line-height: 30px;
   max-width: 683px;
   margin: 28px 0 0 50px;
-  padding:0;
+  padding: 0;
   z-index: 2;
-
-  
 }
 
-.header__image{
+.header__image {
   position: absolute;
   top: 124px;
   right: 5px;
@@ -58,11 +53,11 @@
   font-size: 60px;
   display: block;
   line-height: 72px;
-  color: #FAF8F1;
+  color: #faf8f1;
 }
 
-.header__footer{
-  font-family: 'Inter',Arial,sans-serif;
+.header__footer {
+  font-family: "Inter", Arial, sans-serif;
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
@@ -72,18 +67,13 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  align-items:flex-end;
-
+  align-items: flex-end;
 }
 
-.header__paragraph{
-  font-family: 'Inter', Arial, sans-serif;
+.header__paragraph {
+  font-family: "Inter", Arial, sans-serif;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
   color: #6f6f6f;
-  
 }
-
-  
-    

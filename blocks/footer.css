@@ -1,103 +1,97 @@
-.footer{
-    background-color: #2C3639;  
-    color: #fff;
-padding: 60px 100px 60px 80px;
+.footer {
+  background-color: #2c3639;
+  color: #fff;
+  padding: 60px 100px 60px 80px;
 }
-.footer__content{
-    display: flex;
-    justify-content: space-between;
-   
-   
+.footer__content {
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.footer__logo{
-    width: 116px;
-    height: 21px;
-
+.footer__logo {
+  width: 116px;
+  height: 21px;
 }
-.footer__social-heading{
-    font-family: 'Inter',Arial,sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    margin-top: 0;
-    margin-bottom: 20px;
+.footer__social-heading {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
-.footer__list{
-    list-style: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-
+.footer__list {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
 }
-.footer__list-item{
-    font-family: 'Inter',Arial,sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    list-style: none;
-    margin-bottom: 16px;
-
+.footer__list-item {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 16px;
 }
-.footer__social-icon{
-width: 16px;
-height: 16px;
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
 }
-.footer__social-link{
-   color:#fff;
-   font-style:normal;
-   display: flex;
-   align-items: center;
-   text-decoration: none;
-   font-family: 'Inter',Arial,sans-serif;
-   line-height: 20px;
-   gap: 10px;
+.footer__social-link {
+  color: #fff;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 20px;
+  gap: 10px;
 }
-.footer__copyright{
-    margin: 0;
-    font-family: 'Inter',Arial,sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    margin-top: 108px;
-
+.footer__copyright {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 108px;
 }
-.footer__social-link:hover{
-    color: #c1c1c1;
-    transition: color 0.2s linear 0s;
+.footer__social-link:hover {
+  color: #c1c1c1;
+  transition: color 0.2s linear 0s;
 }
 
 .footer__list-item:last-child {
- margin: 0;
+  margin: 0;
 }
 
-.footer__phone, .footer__email{
-    color: white;
-    text-decoration: none;
-    font-family: 'Inter',Arial,sans-serif;
+.footer__phone,
+.footer__email {
+  color: white;
+  text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
 }
 
-.footer__phone::after{
-    content: " (209) 200-8649";
-    display: block;
-    font-size: 14px;
-    color: white;
-    margin-top: 10px;
-   }
-   .footer__phone:hover::after {
-    color:  #c1c1c1;
-  }
-  .footer__email::after{
-    content: "info@saltandlighttherapy.net";
-    display: block;
-    font-size: 14px;
-    color: white;
-    margin-top: 10px;
-   }
-   .footer__email:hover::after {
-    color:  #c1c1c1;
+.footer__phone::after {
+  content: " (209) 200-8649";
+  display: block;
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
+.footer__phone:hover::after {
+  color: #c1c1c1;
+}
+.footer__email::after {
+  content: "info@saltandlighttherapy.net";
+  display: block;
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
+.footer__email:hover::after {
+  color: #c1c1c1;
 }

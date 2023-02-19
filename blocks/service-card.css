@@ -1,36 +1,27 @@
 .service-card {
-    flex-basis: calc(50% - 50px);
-    max-width: 600px;
-    padding: 0;
-    background-color: rgba(170, 86, 86, 0.5);
-
-   
-
-    
+  flex-basis: calc(50% - 50px);
+  max-width: 600px;
+  padding: 0;
+  background-color: rgba(170, 86, 86, 0.5);
 }
-.service-card__list{
+.service-card__list {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
   color: #fff;
- 
-  
-
 }
 .service-card__title {
-    font-family: 'Inter', Arial,sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 30px;
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 32px ;
-    
-
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 .service-card__list-item {
-  font-family:"Noto Serif", "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   line-height: 20px;
@@ -40,14 +31,12 @@
   gap: 16px;
   margin-bottom: 16px;
 }
-.service-card__list-item:last-child:last-child{
-    margin-bottom: 0;
+.service-card__list-item:last-child:last-child {
+  margin-bottom: 0;
 }
 .service-card__list-divider {
   display: flex;
   flex-grow: 1;
-  border:0;
+  border: 0;
   border-bottom: 1px solid white;
-  
-
 }

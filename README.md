@@ -6,7 +6,6 @@ Salt and Light Therapy is a website that provides online therapy for individuals
 
 We offer therapy sessions for individuals and couples. Our therapists specialize in addressing relationship difficulties, stress, and personal growth. We understand that everyone's needs are unique, so we tailor our therapy to your specific situation.
 
-
 ## Services
 
 We offer therapy sessions for individuals and couples. Our therapists specialize in addressing relationship difficulties, stress, and personal growth. We understand that everyone's needs are unique, so we tailor our therapy to your specific situation.

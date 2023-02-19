@@ -1,28 +1,28 @@
-.reservation{
-    background-image: url('../images/booking.jpg');
-    /*background-color: #D9E7FF;*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    box-sizing: border-box; 
-}   
-.reservation__tittle{
-font-family: 'Inter', Arial, sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-margin-top: 0;
-margin-bottom: 50px;
-text-align: center;
-color: black;
+.reservation {
+  background-image: url("../images/booking.jpg");
+  /*background-color: #D9E7FF;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
 }
-.reservation__form{
-margin:0 auto;
-padding: 0;
-border-style: none;
-max-width: 385px;  
-color: white; 
+.reservation__tittle {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+}
+.reservation__form {
+  margin: 0 auto;
+  padding: 0;
+  border-style: none;
+  max-width: 385px;
+  color: white;
 }
