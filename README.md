@@ -31,3 +31,11 @@ Salt and Light Therapy was built using the following technologies:
 - CSS
 
 We used these technologies to create a responsive and user-friendly website that provides online therapy for individuals and couples. If you have any questions about the technologies we used, please don't hesitate to reach out to us. We're always happy to share our knowledge and expertise.
+
+### Screenshots
+
+![../screenshot.png]
+
+### Live Site
+
+- [https://amay0808.github.io/salt_and_light_therapy/]
