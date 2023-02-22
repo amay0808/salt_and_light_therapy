@@ -1,6 +1,6 @@
 # salt_and_light_therapy # Salt and Light Therapy
 
-Salt and Light Therapy is a website that provides online therapy for individuals and couples. Our licensed therapist offer confidential support from the comfort of your own home. We understand that modern life can be challenging, and it can be difficult to find time to attend traditional therapy sessions. That's why we offer the convenience of online therapy, so you can receive the support you need at a time that works for you. Visit our website at [www.saltandlighttherapy.net](www.saltandlighttherapy.net) to learn more and book your appointment.
+Salt and Light Therapy is a website that provides online therapy for individuals and couples. Our licensed therapist offer confidential support from the comfort of your own home. We understand that modern life can be challenging, and it can be difficult to find time to attend traditional therapy sessions. That's why we offer the convenience of online therapy, so you can receive the support you need at a time that works for you. Visit our website at to learn more and book your appointment.
 
 ## Services
 
@@ -34,7 +34,7 @@ We used these technologies to create a responsive and user-friendly website that
 
 ### Screenshots
 
-!![Screenshot of Salt and Light Therapy](./images/screenshot.png)
+![Screenshot of Salt and Light Therapy](./images/screenshot.png)
 
 ### Live Site
 
