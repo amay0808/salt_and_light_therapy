@@ -34,7 +34,7 @@ We used these technologies to create a responsive and user-friendly website that
 
 ### Screenshots
 
-![../screenshot.png]
+!![Screenshot of Salt and Light Therapy](./images/screenshot.png)
 
 ### Live Site
 
