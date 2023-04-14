@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const emailLink = document.querySelector(".footer__email");
   const emailAddress = "info@saltandlighttherapy.net";
   const subject = "Hello There";
-  const body = "Dear Support,";
+  const body = "Dear Vanessa,";
 
   emailLink.setAttribute(
     "href",

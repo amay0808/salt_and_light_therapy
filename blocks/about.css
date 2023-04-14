@@ -75,3 +75,113 @@
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
+/* CSS for screens smaller than 768px (e.g. phone screens) */
+@media (max-width: 767px) {
+  .about {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about__title {
+    font-size: 32px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .about__content {
+    max-width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .about__circle {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+/* CSS for screens between 768px and 1024px (e.g. tablet screens) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about__title {
+    font-size: 36px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .about__content {
+    max-width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+/* Original CSS for screens larger than 1024px (e.g. desktop screens) */
+.about {
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #2c3639;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__content {
+  max-width: 660px;
+  margin-top: 119px;
+  margin-bottom: 173px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  margin-top: 270px;
+  margin-left: 160px;
+  z-index: 1;
+  margin-bottom: 0;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.about__circle {
+  background-color: #f0ebce;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+  top: 10px;
+  left: 10px;
+  width: 360px;
+  height: 360px;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}

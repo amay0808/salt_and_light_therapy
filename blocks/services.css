@@ -38,3 +38,42 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+/* For tablet */
+@media (max-width: 768px) {
+  .services__title {
+    font-size: 36px;
+    line-height: 42px;
+    padding-bottom: 16px;
+  }
+
+  .services__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px;
+  }
+
+  .services__cards {
+    gap: 50px;
+    margin-top: 50px;
+  }
+}
+
+/* For phone */
+@media (max-width: 480px) {
+  .services__title {
+    font-size: 28px;
+    line-height: 32px;
+    padding-bottom: 8px;
+  }
+
+  .services__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px;
+  }
+
+  .services__cards {
+    gap: 30px;
+    margin-top: 30px;
+  }
+}

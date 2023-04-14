@@ -7,3 +7,24 @@
   margin: 0 auto;
   color: black;
 }
+/* CSS for screens smaller than 768px (e.g. phone screens) */
+@media (max-width: 767px) {
+  .page {
+    font-size: 14px;
+    line-height: 18px;
+    min-width: unset;
+    max-width: unset;
+    padding: 0 20px;
+  }
+}
+
+/* CSS for screens between 768px and 1024px (e.g. tablet screens) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page {
+    font-size: 15px;
+    line-height: 19px;
+    min-width: unset;
+    max-width: unset;
+    padding: 0 40px;
+  }
+}

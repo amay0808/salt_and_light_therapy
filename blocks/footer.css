@@ -95,3 +95,74 @@
 .footer__email:hover::after {
   color: #c1c1c1;
 }
+/* CSS for screens smaller than 768px (e.g. phone screens) */
+@media (max-width: 767px) {
+  .footer {
+    padding: 40px 20px;
+  }
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+  .footer__list {
+    text-align: center;
+  }
+  .footer__social-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .footer__social-heading {
+    text-align: center;
+  }
+  .footer__social-link {
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer__phone::after,
+  .footer__email::after {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .footer__copyright {
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+
+/* CSS for screens between 768px and 1024px (e.g. tablet screens) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    padding: 50px 60px;
+  }
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+  .footer__list {
+    text-align: center;
+  }
+  .footer__social-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .footer__social-heading {
+    text-align: center;
+  }
+  .footer__social-link {
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer__phone::after,
+  .footer__email::after {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+}

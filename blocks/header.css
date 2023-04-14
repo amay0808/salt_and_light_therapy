@@ -77,3 +77,100 @@
   margin-bottom: 0;
   color: #6f6f6f;
 }
+/* CSS for screens smaller than 768px (e.g. phone screens) */
+@media (max-width: 767px) {
+  .header {
+    height: auto;
+    min-height: unset;
+    max-height: unset;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header__title {
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 80px;
+    text-align: center;
+    max-width: unset;
+    margin: 0 auto;
+  }
+  .header__description {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: unset;
+    margin: 20px 0 0;
+    text-align: center;
+  }
+  .header__image {
+    position: static;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .header__span-accent {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    display: block;
+  }
+  .header__footer {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .header__paragraph {
+    text-align: center;
+    margin-top: 8px;
+  }
+}
+
+/* CSS for screens between 768px and 1024px (e.g. tablet screens) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    height: auto;
+    min-height: unset;
+    max-height: unset;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header__title {
+    font-size: 48px;
+    line-height: 58px;
+    padding-top: 120px;
+    text-align: center;
+    max-width: unset;
+    margin: 0 auto;
+  }
+  .header__description {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: unset;
+    margin: 20px 0 0;
+    text-align: center;
+  }
+  .header__image {
+    position: static;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .header__span-accent {
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    display: block;
+  }
+  .header__footer {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .header__paragraph {
+    text-align: center;
+    margin-top: 8px;
+  }
+}
