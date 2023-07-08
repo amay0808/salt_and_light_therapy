@@ -27,7 +27,7 @@ function submitForm(event) {
   event.preventDefault();
 
   const name = document.getElementById("name").value;
-  const phoneNumber = document.getElementById("number-of-guests").value;
+  const phoneNumber = document.getElementById("phone-number").value;
   const email = document.getElementById("your-email").value;
   const message = document.getElementById("largeTextBox").value;
 
